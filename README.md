@@ -84,27 +84,27 @@ Into README.txt you can see the description about set the files to use:
 2) PROCESSING SCRIPT
 
 First at all, load library("reshape2") and library("data.table") because we are going to use it.
------
+
  -1- Merges the training and the test sets to create one data set
------
+
  Take the data to make a table with data test and 2 new colums than identify the activity and the subject asociated 
  Take the data to make a table with data train and 2 new colums than identify the activity and the subject asociated 
  Merging train and test sets into one table
------
+
  -2- Extracts only the measurements on the mean and standard deviation for each measurement
------
+
  Take the data with features avoiding the subject
  Get only columns with mean() or std() in their names and select this in the initial table (dat)
  the features_ms correspond to column's dat except to the first two: subject and activity
------
+
  -3- es descriptive activity names to name the activities in the data set
------
+
  Use the activity_labels.txt to fill the data. 
------
+
  -4- Appropriately labels the data set with descriptive variable names. 
------
+
  Got the first two names asignated and the rest are into our variable features( with features_ms=logical var)
------
+
  -5- From the data set in step 4, creates a second, independent tidy data set with the average of each
      variable for each activity and each subject.
 
