@@ -31,7 +31,8 @@ Good luck!
 
 ##Explanation
 
-<b>1) GETTING THE RAW DATA
+1) GETTING THE RAW DATA
+
 Take the files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and download it.
 The files (getdata_projectfiles_UCI HAR Dataset.zip9) must be saved into work directory and unziped there by hand, like this:
 /WorkDirectory
@@ -80,7 +81,7 @@ Into README.txt you can see the description about set the files to use:
 - 'activity_labels.txt': Links the class labels with their activity name.
 
 
-<b>2) PROCESSING SCRIPT
+2) PROCESSING SCRIPT
 
 First at all, load library("reshape2") and library("data.table") because we are going to use it.
 -----
@@ -109,6 +110,6 @@ First at all, load library("reshape2") and library("data.table") because we are 
 
  Use melt to set the variables to dat_set,  id and mesure. Then use dcast for mean by id.
 
-<b>3) TIDY DATA FOR USE
+3) TIDY DATA FOR USE
 
 The result first tidy data is called 'dat' and the second independent data with mesures is 'dat_mean'
