@@ -35,39 +35,73 @@ Good luck!
 
 Take the files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and download it.
 The files (getdata_projectfiles_UCI HAR Dataset.zip9) must be saved into work directory and unziped there by hand, like this:
+
 /WorkDirectory
+
  |-->UCI HAR Dataset
+ 
 		|--> test
+		
 		|		|-->Inertial Signals
+		
 		|		|		|-->body_acc_x_test.txt
+		
 		|		|		|-->body_acc_y_test.txt
+		
 		|		|		|-->body_acc_z_test.txt
+		
 		|		|		|-->body_gyro_x_test.txt
+		
 		|		|		|-->body_gyro_y_test.txt
+		
 		|		|		|-->body_gyro_z_test.txt
+		
 		|		|		|-->total_acc_x_test.txt
+		
 		|		|		|-->total_acc_y_test.txt
+		
 		|		|		|-->total_acc_z_test.txt
+		
 				|-->subject_test.txt
+				
 		|		|-->X_test.txt
+		
 		|		|-->y_test.txt
+		
 		|--> train
+		
 				|-->Inertial Signals
+				
 		|		|		|-->body_acc_x_train.txt
+		
 		|		|		|-->body_acc_y_train.txt
+		
 		|		|		|-->body_acc_z_train.txt
+		
 		|		|		|-->body_gyro_x_train.txt
+		
 		|		|		|-->body_gyro_y_train.txt
+		
 		|		|		|-->body_gyro_z_train.txt
+		
 		|		|		|-->total_acc_x_train.txt
+		
 		|		|		|-->total_acc_y_train.txt
+		
 		|		|		|-->total_acc_z_train.txt
+		
 		|		|-->subject_train.txt
+		
 		|		|-->X_train.txt
+		
 		|		|-->y_train.txt
+		
 		|-->activity_labels.txt
+		
 		|-->features.txt
+		
 		|-->features_info.txt
+		
 		|-->README.txt
 
 
