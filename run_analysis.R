@@ -55,4 +55,4 @@ library("data.table")
         print("End 2: You got the tidy data independent 'dat_mean'")
 
 ## This part is only to upload at github the file, is not a part of the script for cleanning data.
-        write.table(dat_mean, file = "./tidy_data2.txt")
+        write.table(dat_mean, file = "./tidy_data2.txt", row.name=FALSE)
